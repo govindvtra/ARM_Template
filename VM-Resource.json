@@ -4,18 +4,21 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
+      "defaultValue": "MyARMvm",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
+      "defaultValue": "password1!",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
     },
     "dnsLabelPrefix": {
       "type": "string",
+      "defaultValue": "myazarmdns",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
@@ -38,7 +41,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_D2_v3",
+      "defaultValue": "Standard_B2ms",
       "metadata": {
         "description": "Size of the virtual machine."
       }
