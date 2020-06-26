@@ -4,19 +4,21 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      
+"defaultValue": "MyARMvm",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
-      
+      "defaultValue": "password1!",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
     },
     "dnsLabelPrefix": {
+      "type": "string",
+      "defaultValue": "myazarmdns",
       "type": "string",
       
       "metadata": {
