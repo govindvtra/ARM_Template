@@ -4,7 +4,7 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      "defaultValue": "MyARMvm",
+"defaultValue": "MyARMvm",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
@@ -19,6 +19,8 @@
     "dnsLabelPrefix": {
       "type": "string",
       "defaultValue": "myazarmdns",
+      "type": "string",
+      
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
